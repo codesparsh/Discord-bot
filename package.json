@@ -5,11 +5,12 @@
   "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node bot.js"
+    "start": "node bot.js"
   },
   "author": "Sparsh Tandon",
   "license": "ISC",
   "dependencies": {
+    "@google-cloud/dialogflow": "^3.3.0",
     "axios": "^0.21.1",
     "canvas": "^2.6.1",
     "discord.js": "^11.5.1",
